@@ -38,7 +38,7 @@ while True:
                                                             'vc':volt3,
                                                             'machine_code':machine_code
                                                     })
-                time.sleep(5)
+                time.sleep(1200)
             else:
                 print("โหมด Offline")
                 volt = open('/home/pi/hottub_ma/txt_file/volt_tag.txt','r')
@@ -52,7 +52,7 @@ while True:
                                                             'vc':volt3,
                                                             'machine_code':machine_code
                                                     })
-                time.sleep(300)
+                time.sleep(1200)
         else:
             time.sleep(5)
     except:
